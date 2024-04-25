@@ -1,0 +1,26 @@
+/*Falta modificar los colores de fondo editar las imagenes que hacen falta */
+* {
+    background-color: #01120C;
+    color: white;
+}
+
+.first_part_page {
+    background-color: #01120C;
+}
+
+.logo {
+    border: 5px solid black;
+    height:  40px;
+    width: 60px;
+}
+
+.container1 {
+    background-color: #01120C;
+}
+
+.container2 {
+    background-color: #01120C;
+}
+
+
+
