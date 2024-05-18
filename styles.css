@@ -1,6 +1,6 @@
 /*Falta modificar los colores de fondo editar las imagenes que hacen falta */
 * {
-  background-color: #01120c;
+  /* background-color: #01120c; */
   color: white;
   margin: 0;
   box-sizing: border-box;
@@ -40,11 +40,74 @@ header {
   }
 }
 
+h1, .h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 24px;
+
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+.ascent {
+  color: #31E882;
+}
+
+.backgroud-1 {
+  background: linear-gradient(183deg, #2C2C2C 2.25%, #090909 46.32%);
+}
+
 .container1 {
-  background-color: #01120c;
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  align-items: center;
+  padding: 1rem;
+}
+.container__description {
+  padding: 24px;
+  font-weight: 400;
+}
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 48px;
+}
+.button {
+  padding: 12px 48px;
+  background-color: #31E882;
+  border: none;
+  border-radius: 8px;
+  color: #01120C;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 250px;
+}
+.button:hover {
+  background-color: rgb(31, 192, 106);
+}
+.button:hover ::before {
+  content: "👉";
+  margin-left: -32px;
+  position: absolute;
+}
+.button:active {
+  background-color: rgb(19, 150, 80);
+}
+.button::before {
+  content: "";
+  margin-left: -24px;
+  position: absolute;
 }
 
 .img-section {
@@ -59,11 +122,6 @@ header {
 .header {
   text-align: center;
   padding: 50px;
-}
-
-.header h1 {
-  font-size: 2em;
-  color: #00ff00;
 }
 
 .features {
