@@ -140,5 +140,33 @@ h2 {
   margin: 0;
 }
 
-.contact-container {
+.contact-container4 {
+  display: inline;
+}
+
+
+.contactanoscon4 {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+.foot {
+  display: flex;
+  align-items: center;
 }
